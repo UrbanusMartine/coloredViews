@@ -7,8 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
-import android.R.color as color1
-import android.R.color.holo_green_light as holo_green_light1
+
 
 class MainActivity : AppCompatActivity() {
 
