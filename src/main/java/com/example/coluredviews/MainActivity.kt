@@ -28,18 +28,18 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-       //  @SuppressLint("ResourceAsColor")
+      
          private fun makeColored(view: View) = when (view.id) {
              //boxes using color class colors for background
              R.id.box_one -> view.setBackgroundColor(Color.DKGRAY)
              R.id.box_two -> view.setBackgroundColor(Color.GRAY)
 
              //boxes using android resource colors for background
-             R.id.box_three -> view.setBackgroundColor(android.R.color.holo_green_light)
+             R.id.box_three -> view.setBackgroundResource(android.R.color.holo_green_light)
 
-             R.id.box_four -> view.setBackgroundColor(android.R.color.holo_green_dark)
+             R.id.box_four -> view.setBackgroundResource(android.R.color.holo_green_dark)
 
-             R.id.box_five -> view.setBackgroundColor(android.R.color.holo_orange_light)
+             R.id.box_five -> view.setBackgroundResource(android.R.color.holo_orange_light)
 
              else -> view.setBackgroundColor(Color.LTGRAY)
 
